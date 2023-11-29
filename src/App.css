@@ -1,0 +1,52 @@
+.players-list-container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+/* styiling the cards */
+.Hero {
+  /* background-color:rgb(111, 59, 190) ; */
+  background-image: url(https://t4.ftcdn.net/jpg/00/77/82/85/360_F_77828570_N2FMiscNFTC18GhrofLwjWVp0KqhBqoP.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.player-card {
+  width: 300px;
+  background-color: rgba(
+    255,
+    255,
+    255,
+    0.717
+  ); /* Adjust the alpha value for transparency */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  overflow: hidden;
+  transition: transform 0.3s;
+  margin: 10px;
+  border: 2px solid #d4caca;
+  color: #e1e4e8;
+}
+
+.player-card:hover {
+  transform: scale(1.05);
+}
+
+.player-image {
+  width: 300px;
+  height: auto;
+}
+
+.card-content {
+  padding: 20px;
+  height: fit-content;
+}
+
+.player-name {
+  margin-top: 0;
+}
+
+.player-info {
+  color: #f2f2f2;
+  margin: 5px 0;
+}
