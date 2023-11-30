@@ -2,15 +2,13 @@ import NavBar from "./Components/NavBar";
 // import nav bar
 import PlayersList from "./Components/PlayersList";
 // import playerlist fucntion
-import "../src/App.css"
+import "../src/App.css";
 // import css
 
 function App() {
   return (
     <div className="Hero">
-      
       <NavBar />
-      
       <PlayersList />
     </div>
   );

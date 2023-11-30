@@ -1,6 +1,8 @@
 .players-list-container {
+  width: 90%;
+  margin: auto;
   display: flex;
-  justify-content: space-around;
+  justify-content: flex-start;
   flex-wrap: wrap;
 }
 /* styiling the cards */
@@ -26,15 +28,13 @@
   margin: 10px;
   border: 2px solid #d4caca;
   color: #e1e4e8;
+  height: 550px;
 }
-
+.player-image {
+  object-fit: cover;
+}
 .player-card:hover {
   transform: scale(1.05);
-}
-
-.player-image {
-  width: 300px;
-  height: auto;
 }
 
 .card-content {

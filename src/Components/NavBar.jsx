@@ -5,9 +5,8 @@ import Navbar from "react-bootstrap/Navbar";
 function NavBar() {
   return (
     <div>
-      <Navbar bg="blue" data-bs-theme="blue">
+      <Navbar bg="light" data-bs-theme="light">
         <Container>
-          
           <Navbar.Brand href="#home">
             <img src="https://cdn.nba.com/logos/leagues/logo-nba.svg" alt="" />
             {/* Logo  */}
